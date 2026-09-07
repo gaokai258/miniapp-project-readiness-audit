@@ -1,0 +1,14 @@
+{
+  "name": "miniapp-project-readiness-audit",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A dependency-free readiness audit for reusable miniapp project briefs.",
+  "type": "module",
+  "bin": {
+    "miniapp-readiness-audit": "./audit-project.mjs"
+  },
+  "scripts": {
+    "audit": "node audit-project.mjs example-project.json"
+  },
+  "license": "MIT"
+}
