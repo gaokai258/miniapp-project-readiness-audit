@@ -1,0 +1,28 @@
+{
+  "name": "Service booking miniapp",
+  "roles": [
+    "customer",
+    "operator",
+    "administrator"
+  ],
+  "flows": [
+    "browse service",
+    "choose time slot",
+    "submit booking",
+    "operator confirms"
+  ],
+  "permissions": [
+    "customer can read own bookings",
+    "operator can manage assigned bookings"
+  ],
+  "exceptions": [
+    "slot already reserved",
+    "duplicate submission",
+    "expired login"
+  ],
+  "acceptance": [
+    "booking is persisted",
+    "unauthorised access is rejected",
+    "cancellation is traceable"
+  ]
+}
